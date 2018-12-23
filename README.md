@@ -1,2 +1,2 @@
 # Dungeon-Delver
-A simple pygame program
+A simple pygame program that is hungry for improvement.

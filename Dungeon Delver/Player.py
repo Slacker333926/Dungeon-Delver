@@ -22,13 +22,7 @@ class Player(pygame.sprite.Sprite):
             self.rect.y += 3
 
     def subtract_lives(self):
-        if self.lives > 2:
-            self.lives -= 1
-            print("Ouch!  You now have " + str(self.lives) + " lives.")
-        elif self.lives == 2:
-            self.lives -= 1
-            print("You only have one life left!")
-        elif self.lives == 1:
+        if self.lives > 0:
             self.lives -= 1
 
     def get_lives(self):
